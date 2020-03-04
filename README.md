@@ -1,10 +1,5 @@
 Laravel PostcodeNL API package
 ==============
-[![Latest Stable Version](https://poser.pugx.org/deniztezcan/laravel-postcodenl-api/v/stable)](https://packagist.org/packages/deniztezcan/laravel-postcodenl-api)
-[![Total Downloads](https://poser.pugx.org/deniztezcan/laravel-postcodenl-api/downloads)](https://packagist.org/packages/deniztezcan/laravel-postcodenl-api)
-[![Latest Unstable Version](https://poser.pugx.org/deniztezcan/laravel-postcodenl-api/v/unstable)](https://packagist.org/packages/deniztezcan/laravel-postcodenl-api)
-[![License](https://poser.pugx.org/deniztezcan/laravel-postcodenl-api/license)](https://packagist.org/packages/deniztezcan/laravel-postcodenl-api)
-[![StyleCI](https://github.styleci.io/repos/212767317/shield?branch=master)](https://github.styleci.io/repos/212767317/shield?branch=master)
 
 Intergrates the PostcodeNL API with Laravel 5 & 6 via a ServiceProvider and Facade. This package currently supports only the validation of dutch addresses.
 
