@@ -1,10 +1,10 @@
 {
-    "name": "hennio/laravel-postcodenl-nl",
+    "name": "hennio/postcodenlapi",
     "description": "Laravel PostcodeNL API package",
     "type": "library",
     "license": "MIT",
     "version": "0.2.1",
-    "homepage": "https://github.com/hennio/laravel-postcodenl-nl",
+    "homepage": "https://github.com/hennio/postcodenlapi",
     "authors": [
         {
             "name": "Henrique van Huisstede",
@@ -12,7 +12,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Hennio\\LaravelPostcodeNLAPI\\" : "src/" }
+        "psr-4": { "Hennio\\Postcodenlapi\\" : "src/" }
     },
     "minimum-stability": "stable",
     "require": {
@@ -21,10 +21,10 @@
     "extra": {
       "laravel": {
         "providers": [
-          "Hennio\\LaravelPostcodeNLAPI\\PostcodeNLAPIServiceProvider"
+          "Hennio\\Postcodenlapi\\PostcodenlapiServiceProvider"
         ],
         "aliases": {
-          "PostNLAPI": "Hennio\\LaravelPostcodeNLAPI\\Facades\\PostcodeNLAPI"
+          "Postcodenlapi": "Hennio\\Postcodenlapi\\Facades\\Postcodenlapi"
         }
       }
     }
