@@ -1,10 +1,10 @@
 <?php
 
-namespace Hennio\LaravelPostcodeNLAPI;
+namespace Hennio\Postcodenlapi;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
-class PostcodeNLAPIServiceProvider extends BaseServiceProvider
+class PostcodenlapiServiceProvider extends BaseServiceProvider
 {
     public function boot()
     {
@@ -16,7 +16,7 @@ class PostcodeNLAPIServiceProvider extends BaseServiceProvider
     public function register()
     {
         $this->app->bind('postcodenl', function () {
-            return new PostcodeNLAPI();
+            return new Postcodenlapi();
         });
     }
 

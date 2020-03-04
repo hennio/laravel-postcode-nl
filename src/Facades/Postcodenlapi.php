@@ -1,10 +1,10 @@
 <?php
 
-namespace DenizTezcan\LaravelPostcodeNLAPI\Facades;
+namespace Hennio\Postcodenlapi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class PostcodeNLAPI extends Facade
+class Postcodenlapi extends Facade
 {
     protected static function getFacadeAccessor()
     {

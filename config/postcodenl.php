@@ -2,7 +2,7 @@
 
 return [
     'api'		=> [
-        'key'		=> '',
-        'secret'    => '',
+        'key'		=> env('POSTCODENL_KEY'),
+        'secret'    => env('POSTCODENL_SECRET')
     ],
 ];

@@ -1,12 +1,12 @@
 <?php
 
-namespace DenizTezcan\LaravelPostcodeNLAPI;
+namespace Hennio\Postcodenlapi;
 
 use GuzzleHttp\Client;
 use Psr\Http\Message\ResponseInterface;
 use RuntimeException;
 
-class PostcodeNLAPI
+class Postcodenlapi
 {
 	private $client;
 	private $baseUrl = 'https://api.postcode.eu';
