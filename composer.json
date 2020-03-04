@@ -1,5 +1,5 @@
 {
-    "name": "deniztezcan/laravel-postcodenl-api",
+    "name": "hennio/laravel-postcodenl-nl",
     "description": "Laravel PostcodeNL API package",
     "type": "library",
     "license": "MIT",
