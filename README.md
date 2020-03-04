@@ -1,11 +1,11 @@
 Laravel PostcodeNL API package
 ==============
 
-Intergrates the PostcodeNL API with Laravel 5 & 6 via a ServiceProvider and Facade. This package currently supports only the validation of dutch addresses.
+Integrates the PostcodeNL API with Laravel 5 & 6 via a ServiceProvider and Facade. This package currently supports only the validation of dutch addresses.
 
 ### Instalation
 ```
-composer require deniztezcan/laravel-postcodenl-api
+composer require hennio/laravel-postcodenl-nl
 ```
 
 Add a ServiceProvider to your providers array in `config/app.php`:
@@ -13,7 +13,7 @@ Add a ServiceProvider to your providers array in `config/app.php`:
     'providers' => [
     	//other things here
 
-    	DenizTezcan\LaravelPostcodeNLAPI\PostcodeNLAPIServiceProvider::class,
+    	Hennio\LaravelPostcodeNLAPI\PostcodeNLAPIServiceProvider::class,
     ];
 ```
 
@@ -22,13 +22,13 @@ Add the facade to the facades array:
     'aliases' => [
     	//other things here
 
-    	'PostcodeNLAPI' => DenizTezcan\LaravelPostcodeNLAPI\Facades\PostcodeNLAPI::class,
+    	'PostcodeNLAPI' => Hennio\LaravelPostcodeNLAPI\Facades\PostcodeNLAPI::class,
     ];
 ```
 
 Finally, publish the configuration files:
 ```
-php artisan vendor:publish --provider="DenizTezcan\LaravelPostcodeNLAPI\PostcodeNLAPIServiceProvider"
+php artisan vendor:publish --provider="Hennio\LaravelPostcodeNLAPI\PostcodeNLAPIServiceProvider"
 ```
 
 ### Configuration
