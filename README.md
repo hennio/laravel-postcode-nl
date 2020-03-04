@@ -13,7 +13,7 @@ Add a ServiceProvider to your providers array in `config/app.php`:
     'providers' => [
     	//other things here
 
-    	Hennio\LaravelPostcodeNLAPI\PostcodeNLAPIServiceProvider::class,
+    	Hennio\LaravelPostcodeNLNL\PostcodeNLAPIServiceProvider::class,
     ];
 ```
 
@@ -22,7 +22,7 @@ Add the facade to the facades array:
     'aliases' => [
     	//other things here
 
-    	'PostcodeNLAPI' => Hennio\LaravelPostcodeNLAPI\Facades\PostcodeNLAPI::class,
+    	'PostcodeNLAPI' => Hennio\LaravelPostcodeNLNL\Facades\PostcodeNLAPI::class,
     ];
 ```
 
